@@ -1,0 +1,17 @@
+.full_container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000055;
+  z-index: 999;
+}
+img {
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
